@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const MenuPage = () => {
+const PageMenu = () => {
   const [items, setItems] = useState([]);
   const [category, setCategory] = useState('all'); // Default to 'all' items
   const [error, setError] = useState(null);
@@ -112,4 +112,4 @@ const MenuPage = () => {
   );
 };
 
-export default MenuPage;
+export default PageMenu;
